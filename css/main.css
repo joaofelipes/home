@@ -1,0 +1,84 @@
+.about {
+    position: relative
+}
+.about h1 {
+    font-size: 1.5em;}
+.about .about__title {
+    margin-bottom: 0
+}
+.about .about__description {
+    font-size: 0.900em;
+    margin-top: .31em
+}
+
+.contact {
+    display: flex;margin-top: 50px;}
+
+.contact a {
+    border-bottom: 0;
+    font-size: 1.77em;
+    margin-right: 1.60em;
+    padding-bottom: 0
+}
+.contact a:hover {
+    color: #0057a2
+}
+article header>h2 {
+    font-size: 1.125em;
+    font-weight: 700
+}
+article:after {
+    clear: both;
+    content: "";
+    display: block
+}
+@media screen and (max-width:530px) {
+    .about__title {
+        font-size: 1.77em
+    }
+    .about__description {
+        font-size: 1.333em
+    }
+}
+html {
+    /* background: #0073d5; */
+    font-size: 16px
+}
+body {
+    color: #fff;
+    font-family: "Inconsolata", monospace;
+    font-weight: 400;
+    line-height: 1.45;
+    margin: 15px;}
+.box {
+    border-radius: 50px / 15px;
+}
+.wrapper {
+    max-width: 800px;
+    width: 362px;padding: 1.33em;
+    border-radius: 15px 35px 15px 15px;
+    background: #0073d5;
+    box-shadow: 6px 6px 8px #888787bf;}
+
+a {
+    border-bottom: 1px solid;
+    color: #fff;
+    padding-bottom: 5px;
+    text-decoration: none
+}
+p {
+    margin-bottom: 1.3em
+}
+h1, h2, h3, h4 {
+    font-weight: inherit;
+    line-height: 1.4
+}
+h1 {
+    margin-top: 0;
+    font-size: 2.369em
+}
+
+.logo {
+  height: 34px;
+  width: 80px;
+}
