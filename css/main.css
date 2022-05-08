@@ -2,19 +2,38 @@
     position: relative
 }
 .about h1 {
-    font-size: 1.5em;}
+    font-size: 1.1em;}
 .about .about__title {
     margin-bottom: 0
 }
 .about .about__description {
-    font-size: 0.900em;
+    font-size: 0.750em;
     margin-top: .31em
 }
+
+.boxcardtext {
+  margin-left: 8px;
+  position: relative;
+padding: 9px;width: 100%;}
 
 .buycoffee {
   margin-top: 50px;
   padding: -8px 0 0 -20px;
 }
+
+.photo {
+  align-items: center;
+  border:1px solid 
+  text-align: center;
+  display: flex;
+}
+.photo img {
+  border-radius: 50%;
+  border: 1.5px solid white;
+  width: 64px;
+  display: inline-flex;}
+
+img {}
 
 
 .bmc-btn-container {
@@ -26,7 +45,7 @@
 
 .contact {
     display: flex;
-    margin-top: 50px;
+    margin-top: 19px;
 }
 
 .contact a {
@@ -70,8 +89,7 @@ body {
     margin: 0;
 
     padding: 8px 0 0 20px;
-    max-width: 374px
-}
+    max-width: 384px;}
 
 .box {
     border-radius: 50px / 15px;
